@@ -1,6 +1,6 @@
 # Homebrew PHP
 
-A centralized repository for PHP-related brews.
+A centralized repository for PHP-related brews forked from the (now deprecated) [Homebrew PHP](https://github.com/Homebrew/homebrew-php) to use with [brewStack](https://gist.github.com/steyep/431777908be1fc9b2198).
 
 ## Requirements
 
@@ -12,15 +12,8 @@ A centralized repository for PHP-related brews.
 Run the following in your command-line:
 
 ```sh
-$ brew tap homebrew/homebrew-php
+$ brew tap steyep/php
 ```
-
-## Bugs happen
-
-The more information you provide and the more detailed your report is, the easier it is for us to fix it.
-An example of the best practice(s) for filling out bug reports can be seen here: https://github.com/Homebrew/homebrew-php/issues/1225.
-
-Please refer to [this section](#filing-bug-reports) for more information.
 
 ## Common Issues
 
