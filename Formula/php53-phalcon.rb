@@ -19,7 +19,7 @@ class Php53Phalcon < AbstractPhp53Extension
   depends_on "pcre"
 
   def install
-    if MacOS.prefer_64_bit?
+    if Hardware::CPU.is_64_bit?
       Dir.chdir "build/64bits"
     else
       Dir.chdir "build/32bits"

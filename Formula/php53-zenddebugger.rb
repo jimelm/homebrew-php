@@ -11,7 +11,7 @@ class Php53Zenddebugger < AbstractPhp53Extension
     sha256 "c18af0f8a34dfd3ca92a030c01b87f03182ea3107d720d3439ee0a3a1d94d3b4" => :mavericks
   end
 
-  if MacOS.prefer_64_bit?
+  if Hardware::CPU.is_64_bit?
     url "http://downloads.zend.com/studio_debugger/20100729/ZendDebugger-20100729-darwin9.5-x86_64.tar.gz"
     sha256 "87a7526738e1de1b20e055f06b7cfc46292e96e79a063893911e3ec42efa6213"
     version "20100729"
